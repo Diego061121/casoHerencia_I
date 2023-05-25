@@ -31,55 +31,55 @@ public class PanelEntrada extends JPanel
         lbTitulo = new JLabel("BIBLIOTECA SEÑOR PÉREZ", SwingConstants.CENTER);
         lbTitulo.setFont(new Font("Verdana", Font.BOLD, 20));
         lbTitulo.setForeground(Color.BLACK);
-        lbTitulo.setBounds(0, 10, 558, 30);
+        lbTitulo.setBounds(0, 10, 465, 30);
 
         lbNombreLibro = new JLabel("Nombre =");
         lbNombreLibro.setFont(new Font("Serif", Font.PLAIN, 18));
         lbNombreLibro.setForeground(Color.BLACK);
-        lbNombreLibro.setBounds(230, 55, 480, 30);
+        lbNombreLibro.setBounds(100, 55, 375, 30);
 
         tfNombreLibro = new JTextField();
         tfNombreLibro.setFont(new Font("Arial", Font.PLAIN, 18));
         tfNombreLibro.setForeground(Color.BLACK);
-        tfNombreLibro.setBounds(330, 55, 190, 30);
+        tfNombreLibro.setBounds(200, 55, 190, 30);
 
         lbNombreAutores = new JLabel("Autores =");
         lbNombreAutores.setFont(new Font("Serif", Font.PLAIN, 18));
         lbNombreAutores.setForeground(Color.BLACK);
-        lbNombreAutores.setBounds(230, 95, 480, 30);
+        lbNombreAutores.setBounds(100, 95, 480, 30);
 
         tfNombreAutores = new JTextField();
         tfNombreAutores.setFont(new Font("Arial", Font.PLAIN, 18));
         tfNombreAutores.setForeground(Color.BLACK);
-        tfNombreAutores.setBounds(330, 95, 190, 30);
+        tfNombreAutores.setBounds(200, 95, 190, 30);
 
         lbAñoEdicion = new JLabel("Año =");
         lbAñoEdicion.setFont(new Font("Serif", Font.PLAIN, 18));
         lbAñoEdicion.setForeground(Color.BLACK);
-        lbAñoEdicion.setBounds(230, 135, 480, 30);
+        lbAñoEdicion.setBounds(100, 135, 480, 30);
 
         tfAñoEdicion = new JTextField();
         tfAñoEdicion.setFont(new Font("Arial", Font.PLAIN, 18));
         tfAñoEdicion.setForeground(Color.BLACK);
-        tfAñoEdicion.setBounds(330, 135, 190, 30);
+        tfAñoEdicion.setBounds(200, 135, 190, 30);
 
         lbEdicionLujo = new JLabel("Edición de lujo =");
         lbEdicionLujo.setFont(new Font("Serif", Font.PLAIN, 18));
         lbEdicionLujo.setForeground(Color.BLACK);
-        lbEdicionLujo.setBounds(230, 175, 480, 30);
+        lbEdicionLujo.setBounds(100, 175, 480, 30);
 
         bgEsLibroDeLujo = new ButtonGroup();
 
         rbEsLibroDeLujo = new JRadioButton("Sí");
         rbEsLibroDeLujo.setFont(new Font("Serif", Font.PLAIN, 18));
         rbEsLibroDeLujo.setBackground(Color.decode("#f4da83"));
-        rbEsLibroDeLujo.setBounds(390, 175, 50, 30);
+        rbEsLibroDeLujo.setBounds(250, 175, 50, 30);
         bgEsLibroDeLujo.add(rbEsLibroDeLujo);
 
         rbNoEsLibroDeLujo = new JRadioButton("No");
         rbNoEsLibroDeLujo.setFont(new Font("Serif", Font.PLAIN, 18));
         rbNoEsLibroDeLujo.setBackground(Color.decode("#f4da83"));
-        rbNoEsLibroDeLujo.setBounds(450, 175, 50, 30);
+        rbNoEsLibroDeLujo.setBounds(300, 175, 50, 30);
         bgEsLibroDeLujo.add(rbNoEsLibroDeLujo);
 
         TitledBorder borde = BorderFactory.createTitledBorder("Datos del libro");

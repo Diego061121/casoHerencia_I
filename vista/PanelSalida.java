@@ -20,10 +20,10 @@ public class PanelSalida extends JPanel
         taResultados.setForeground(Color.BLACK);
         taResultados.setBorder(BorderFactory.createLoweredBevelBorder());
         taResultados.setEditable(false);
-        taResultados.setBounds(9, 15, 512, 130);
+        taResultados.setBounds(15, 15, 100, 130);
 
         spResultados = new JScrollPane(taResultados);
-        spResultados.setBounds(9, 15, 512, 130);
+        spResultados.setBounds(9, 15, 447, 190);
         
         TitledBorder borde = BorderFactory.createTitledBorder("Resultados");
         borde.setTitleColor(Color.BLACK);

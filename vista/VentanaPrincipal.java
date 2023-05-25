@@ -11,20 +11,22 @@ public class VentanaPrincipal extends JFrame
 
     public VentanaPrincipal() 
     {
+        this.setLayout(null);
+
         miPanelEntrada = new PanelEntrada();
-        miPanelEntrada.setBounds(10, 10, 530, 220);
+        miPanelEntrada.setBounds(10, 10, 465, 220);
         this.add(miPanelEntrada);
 
         miPanelProceso = new PanelProceso();
-        miPanelProceso.setBounds(10, 240, 530, 80);
+        miPanelProceso.setBounds(10, 240, 465, 80);
         this.add(miPanelProceso);
 
         miPanelSalida = new PanelSalida();
-        miPanelSalida.setBounds(10, 330, 530, 160);
+        miPanelSalida.setBounds(10, 330, 465, 220);
         this.add(miPanelSalida);
 
         this.setTitle("Biblioteca señor Pérez");
-        this.setSize(558, 532);
+        this.setSize(500, 600);
         this.setResizable(false);
         this.setLocationRelativeTo(null);
         this.setDefaultCloseOperation(EXIT_ON_CLOSE);

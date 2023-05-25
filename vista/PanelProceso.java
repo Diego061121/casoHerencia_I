@@ -18,43 +18,43 @@ public class PanelProceso extends JPanel
     public PanelProceso() 
     {
         btnCrearLibro = new JButton("Crear libro");
-        btnCrearLibro.setFont(new Font("Arial", Font.PLAIN, 14));
+        btnCrearLibro.setFont(new Font("Arial", Font.PLAIN, 12));
         btnCrearLibro.setForeground(Color.BLACK);
         btnCrearLibro.setBackground(Color.WHITE);
         btnCrearLibro.setBorder(BorderFactory.createRaisedBevelBorder());
-        btnCrearLibro.setBounds(5, 22, 100, 40);
+        btnCrearLibro.setBounds(10, 25, 85, 30);
         btnCrearLibro.setActionCommand("crearLibro");
 
-        btnCrearColeccion = new JButton("Crear colección");
-        btnCrearColeccion.setFont(new Font("Arial", Font.PLAIN, 14));
+        btnCrearColeccion = new JButton("Crear " + "\ncolección");
+        btnCrearColeccion.setFont(new Font("Arial", Font.PLAIN, 12));
         btnCrearColeccion.setForeground(Color.BLACK);
         btnCrearColeccion.setBackground(Color.WHITE);
         btnCrearColeccion.setBorder(BorderFactory.createRaisedBevelBorder());
-        btnCrearColeccion.setBounds(110, 22, 100, 40);
+        btnCrearColeccion.setBounds(100, 25, 85, 30);
         btnCrearColeccion.setActionCommand("crearColeccion");
 
         btnImprimir = new JButton("Imprimir");
-        btnImprimir.setFont(new Font("Arial", Font.PLAIN, 14));
+        btnImprimir.setFont(new Font("Arial", Font.PLAIN, 12));
         btnImprimir.setForeground(Color.BLACK);
         btnImprimir.setBackground(Color.WHITE);
         btnImprimir.setBorder(BorderFactory.createRaisedBevelBorder());
-        btnImprimir.setBounds(215, 22, 100, 40);
+        btnImprimir.setBounds(190, 25, 85, 30);
         btnImprimir.setActionCommand("imprimirLibros");
 
         btnBorrar = new JButton("Borrar");
-        btnBorrar.setFont(new Font("Arial", Font.PLAIN, 14));
+        btnBorrar.setFont(new Font("Arial", Font.PLAIN, 12));
         btnBorrar.setForeground(Color.BLACK);
         btnBorrar.setBackground(Color.WHITE);
         btnBorrar.setBorder(BorderFactory.createRaisedBevelBorder());
-        btnBorrar.setBounds(320, 22, 100, 40);
+        btnBorrar.setBounds(280, 25, 85, 30);
         btnBorrar.setActionCommand("borrarTexto");
 
         btnSalir = new JButton("Salir");
-        btnSalir.setFont(new Font("Arial", Font.PLAIN, 14));
+        btnSalir.setFont(new Font("Arial", Font.PLAIN, 12));
         btnSalir.setForeground(Color.BLACK);
         btnSalir.setBackground(Color.WHITE);
         btnSalir.setBorder(BorderFactory.createRaisedBevelBorder());
-        btnSalir.setBounds(425, 22, 100, 40);
+        btnSalir.setBounds(370, 25, 85, 30);
         btnSalir.setActionCommand("cerrarVentana");
 
         TitledBorder borde = BorderFactory.createTitledBorder("Opciones");
